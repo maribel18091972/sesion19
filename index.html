@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnapFolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="logo" href="#inicio"><b>S</b><span>Snapfolio</span></a>
+    <nav>
+      <a class="active" href="#inicio">⌂ <span>Inicio</span></a>
+      <a href="#about">◉ <span>Acerca de mí</span></a>
+      <a href="#resume">▤ <span>Resumen</span></a>
+      <a href="#portfolio">▦ <span>Portafolio</span></a>
+      <a href="#services">◇ <span>Servicios</span></a>
+      <a href="#contact">✉ <span>Contacto</span></a>
+    </nav>
+  </aside>
+  <button class="menu" id="menu" aria-label="Abrir menú">☰</button>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div><h1>SnapFolio</h1><h2>Alexander Chen</h2><p class="role">UI/UX Designer</p><p>Diseñador creativo enfocado en experiencias digitales claras y atractivas.</p><div class="actions"><a class="primary" href="#portfolio">Ver Portafolio</a><a class="secondary" href="#contact">Contáctame</a></div></div>
+      <div class="portrait placeholder">IMAGEN</div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="about-grid">
+        <article class="profile"><div class="photo placeholder">FOTO</div><h3>Maxie Timmons</h3><p>Creative Design Architect</p><b>CA</b></article>
+        <article class="intro"><small>ACERCA DE MÍ</small><h2>Passionate About Creating Digital Experiences</h2><p>Creo soluciones visuales modernas, funcionales y accesibles para marcas y productos digitales.</p><div class="stats"><div><strong>150+</strong><span>Projects</span></div><div><strong>5+</strong><span>Years Exp</span></div><div><strong>98%</strong><span>Success</span></div></div></article>
+      </div>
+      <div class="metrics"><div><b>232</b><span>Happy Clients</span></div><div><b>521</b><span>Projects</span></div><div><b>1463</b><span>Hours</span></div><div><b>15</b><span>Awards</span></div></div>
+      <h2 class="title">Skills</h2>
+      <div class="skills"><div><label>Frontend Development <b>92%</b></label><i><span style="width:92%"></span></i></div><div><label>Backend Development <b>88%</b></label><i><span style="width:88%"></span></i></div><div><label>UI/UX Design <b>95%</b></label><i><span style="width:95%"></span></i></div><div><label>Motion Graphics <b>78%</b></label><i><span style="width:78%"></span></i></div></div>
+    </section>
+
+    <section class="section" id="resume">
+      <h2 class="title">Resume</h2><p class="subtitle">Professional experience and education</p>
+      <div class="resume-grid"><aside><h3>Experience</h3><article><h4>Senior Graphic Designer</h4><small>2023 - Present</small><p>Creative direction and digital design leadership.</p></article><h3>Education</h3><article><h4>BA Visual Communication</h4><small>2018 - 2022</small></article></aside><div class="timeline"><article><h3>Creative Design Architect</h3><small>2022 - Present</small><ul><li>Designed systems for global brands</li><li>Mentored multidisciplinary teams</li></ul></article><article><h3>Certifications</h3><p>Google UX Design Professional Certificate</p><p>Google Cloud Professional Architect</p></article></div></div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <h2 class="title">Portfolio</h2><p class="subtitle">Selected creative work</p>
+      <div class="portfolio-grid"><aside class="filters"><button class="active">All Projects</button><button>Branding</button><button>Illustrations</button><button>Development</button></aside><div class="gallery"><div class="placeholder">PROYECTO</div><div class="placeholder">PROYECTO</div><div class="placeholder">PROYECTO</div><div class="placeholder">PROYECTO</div><div class="placeholder">PROYECTO</div><div class="placeholder">PROYECTO</div></div></div>
+    </section>
+
+    <section class="section" id="services">
+      <h2 class="title">Services</h2><p class="subtitle">Digital solutions for growing businesses</p>
+      <h2 class="services-title">Innovative business<br>performance solutions</h2>
+      <div class="service-grid"><article><b>◎</b><h3>Creative branding</h3><p>Memorable identities and visual systems.</p></article><article><b>⌁</b><h3>Design systems</h3><p>Consistent experiences for product teams.</p></article><article><b>▥</b><h3>Marketing strategies</h3><p>Campaigns that connect brands and audiences.</p></article><article><b>⚙</b><h3>Digital platforms</h3><p>Responsive and intuitive digital products.</p></article><article><b>♜</b><h3>Growth acceleration</h3><p>Insights turned into measurable growth.</p></article><article><b>▣</b><h3>Media solutions</h3><p>Polished content across every channel.</p></article></div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="title">Contact</h2><p class="subtitle">Let's discuss your next project</p>
+      <div class="contact-grid"><aside><h3>Contact Info</h3><p>2847 Rainbow Road, Los Angeles</p><p>+1 555 1234567</p><p>hello@example.com</p></aside><form id="contactForm"><h3>Get in Touch</h3><div><input name="name" placeholder="Name" required><input type="email" name="email" placeholder="Email" required></div><input name="subject" placeholder="Subject" required><textarea name="message" placeholder="Message" required></textarea><button type="submit">Send Message</button></form></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
